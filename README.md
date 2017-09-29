@@ -3,9 +3,9 @@ An http server implemented in C that can serve static HTML and image files.
 
 **Usage**:
 
-Starting the program: ./http-server <server_port> <web_root> <mdb-lookup-host> <mdb-lookup-port>
+Starting the program: ./http-server <server_port> <web_root>
 
-For example, ./http-server 8888  ̃/html localhost 9999 should serve an index.html to the following request: http://the.machine.the.server.is.running.on:8888/index.html
+For example, ./http-server 8888  ̃/html should serve an index.html to the following request: http://the.machine.the.server.is.running.on:8888/index.html
 
 **Details**:
 
